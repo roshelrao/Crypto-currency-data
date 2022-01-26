@@ -19,3 +19,33 @@ input{
     width: 50%;
     text-align: center;
 }
+
+@media (min-width: 150px) {
+    .cards { 
+    display:grid;
+    grid-template-columns: auto;
+    column-gap: 50px;
+    margin-left: 50px;
+    row-gap: 50px;
+     }
+}
+
+@media (min-width: 800px) {
+    .cards { 
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    margin-left: 50px;
+    row-gap: 50px;
+     }
+}
+
+@media (min-width: 1000px) {
+    .cards { 
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    margin-left: 50px;
+    row-gap: 50px;
+     }
+}
